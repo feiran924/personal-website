@@ -1,0 +1,20 @@
+---
+title: "Curriculum Vitae"
+output:
+  html_document:
+    theme: flatly
+    css: styles.css
+---
+
+<p style="color:#6b7280; margin-bottom: 6px;">
+  You can view my full CV below, or 
+  <a href="Feiran_Zhang_resume.pdf" download><i class="fa fa-download"></i> download the PDF</a>.
+</p>
+
+<div class="cv-embed-container">
+  <iframe src="Feiran_Zhang_resume.pdf" title="Feiran Zhang CV"></iframe>
+</div>
+
+<div class="footer-section">
+  &copy; 2025 Feiran Zhang &nbsp;&middot;&nbsp; Built with R Markdown &amp; GitHub Pages
+</div>

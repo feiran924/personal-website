@@ -1,0 +1,25 @@
+name: "Feiran Zhang"
+output_dir: "docs"
+
+navbar:
+  title: "Feiran Zhang"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: cv.html
+    - text: "Projects"
+      href: projects.html
+  right:
+    - icon: fa-github
+      href: https://github.com/feiran924
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/feiran-zhang-b29710403
+    - icon: fa-envelope
+      href: mailto:feiranz116@gmail.com
+
+output:
+  html_document:
+    theme: flatly
+    css: styles.css
+    highlight: tango

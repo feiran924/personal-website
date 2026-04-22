@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research Projects</title>
+
+<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Feiran Zhang</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/feiran924">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/feiran-zhang-b29710403">
+    <span class="fa fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:feiranz116@gmail.com">
+    <span class="fa fa-envelope"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Research Projects</h1>
+
+</div>
+
+
+<p style="color:#6b7280; font-size:1.05rem; margin-bottom:30px;">
+Below are selected graduate research projects from my time at Emory
+University. Each project applies advanced statistical methods to
+real-world public health questions.
+</p>
+<hr />
+<div class="project-card">
+<h3>
+Bayesian Spatial Modeling of Opioid-Related Mortality in Georgia
+</h3>
+<div class="project-meta">
+<pre><code>&lt;i class=&quot;fa fa-calendar&quot;&gt;&lt;/i&gt; May 2025 &amp;ndash; Present &amp;nbsp;&amp;nbsp;
+&lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt; Advisor: Professor Lance Waller, Emory University</code></pre>
+</div>
+<p><span class="tag">Bayesian Statistics</span> <span
+class="tag">Spatial Analysis</span> <span class="tag">R</span> <span
+class="tag">Public Health</span></p>
+<p>
+The opioid crisis has had a devastating and uneven impact across
+communities in Georgia. This project maps opioid mortality disparities
+at the county level using Bayesian spatial models, identifying
+persistent high-risk geographic clusters that can inform targeted public
+health interventions.
+</p>
+<p>
+We integrate sociodemographic factors — including poverty rate and
+racial composition — into multivariable spatial models. Model fit is
+compared using the Deviance Information Criterion (DIC), and results are
+reported as posterior mortality rates with 95% credible intervals. A
+simulation study is also conducted to evaluate how choices in
+neighbor-weight matrices and spatial correlation strength affect the
+precision and statistical power to detect true geographic disparities.
+</p>
+<p>
+<strong>Key methods:</strong> Besag-York-Mollié (BYM) model, Intrinsic
+Conditional Autoregressive (ICAR) priors, Markov Chain Monte Carlo
+(MCMC) inference, choropleth mapping.
+</p>
+<p><a class="btn-project" href="https://github.com/feiran924" target="_blank">
+<i class="fa fa-github"></i> View on GitHub </a></p>
+</div>
+<hr />
+<div class="project-card">
+<h3>
+Multi-Pollutant Modeling of Air Pollution Effects on Gestational
+Complications
+</h3>
+<div class="project-meta">
+<pre><code>&lt;i class=&quot;fa fa-calendar&quot;&gt;&lt;/i&gt; October 2024 &amp;ndash; Present &amp;nbsp;&amp;nbsp;
+&lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt; Advisor: Professor Howard H. Chang, Emory University</code></pre>
+</div>
+<p><span class="tag">Environmental Epidemiology</span> <span
+class="tag">Survival Analysis</span> <span class="tag">R</span> <span
+class="tag">Exposure Assessment</span></p>
+<p>
+Air pollution exposure during pregnancy is a significant concern for
+maternal and fetal health. This project investigates the joint and
+individual effects of 12 ambient air pollutants on gestational
+complications using a large Georgia birth cohort (conceptions
+2007–2013).
+</p>
+<p>
+We employ logistic regression and discrete-time survival models to
+estimate trimester-specific risk, accounting for high-dimensional
+pollutant exposures alongside demographic and socioeconomic confounders.
+Spatiotemporal pollution estimates are linked to birth records to build
+a comprehensive, analysis-ready cohort. Results highlight critical
+exposure windows and key pollutant-outcome pairs, providing actionable
+guidance for environmental health policy.
+</p>
+<p>
+<strong>Key methods:</strong> Weighted Quantile Sum (WQS) regression,
+Bayesian Kernel Machine Regression (BKMR), discrete-time hazard models,
+spatiotemporal data integration.
+</p>
+<p><a class="btn-project" href="https://github.com/feiran924" target="_blank">
+<i class="fa fa-github"></i> View on GitHub </a></p>
+</div>
+<hr />
+<div class="footer-section">
+<p>© 2025 Feiran Zhang  ·  Built with R Markdown &amp; GitHub Pages</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
