@@ -13,82 +13,78 @@ Each project applies advanced statistical methods to real-world public health qu
 
 ---
 
+```{=html}
 <div class="project-card">
   <h3>Bayesian Spatial Modeling of Opioid-Related Mortality in Georgia</h3>
   <div class="project-meta">
     <i class="fa fa-calendar"></i> May 2025 &ndash; Present &nbsp;&nbsp;
     <i class="fa fa-user"></i> Advisor: Professor Lance Waller, Emory University
   </div>
-  
   <span class="tag">Bayesian Statistics</span>
   <span class="tag">Spatial Analysis</span>
   <span class="tag">R</span>
   <span class="tag">Public Health</span>
-  
   <p>
-    The opioid crisis has had a devastating and uneven impact across communities in Georgia. 
-    This project maps opioid mortality disparities at the county level using Bayesian spatial models, 
+    The opioid crisis has had a devastating and uneven impact across communities in Georgia.
+    This project maps opioid mortality disparities at the county level using Bayesian spatial models,
     identifying persistent high-risk geographic clusters that can inform targeted public health interventions.
   </p>
-  
   <p>
-    We integrate sociodemographic factors — including poverty rate and racial composition — into 
-    multivariable spatial models. Model fit is compared using the Deviance Information Criterion (DIC), 
-    and results are reported as posterior mortality rates with 95% credible intervals. A simulation 
-    study is also conducted to evaluate how choices in neighbor-weight matrices and spatial correlation 
-    strength affect the precision and statistical power to detect true geographic disparities.
+    We integrate sociodemographic factors — including poverty rate and racial composition — into
+    multivariable spatial models. Model fit is compared using the Deviance Information Criterion (DIC),
+    and results are reported as posterior mortality rates with 95% credible intervals. A simulation
+    study evaluates how neighbor-weight matrices and spatial correlation strength affect precision and
+    statistical power to detect true geographic disparities.
   </p>
-  
   <p>
-    <strong>Key methods:</strong> Besag-York-Mollié (BYM) model, Intrinsic Conditional Autoregressive 
+    <strong>Key methods:</strong> Besag-York-Mollié (BYM) model, Intrinsic Conditional Autoregressive
     (ICAR) priors, Markov Chain Monte Carlo (MCMC) inference, choropleth mapping.
   </p>
-  
   <a class="btn-project" href="https://github.com/feiran924" target="_blank">
     <i class="fa fa-github"></i> View on GitHub
   </a>
 </div>
+```
 
 ---
 
+```{=html}
 <div class="project-card">
   <h3>Multi-Pollutant Modeling of Air Pollution Effects on Gestational Complications</h3>
   <div class="project-meta">
     <i class="fa fa-calendar"></i> October 2024 &ndash; Present &nbsp;&nbsp;
     <i class="fa fa-user"></i> Advisor: Professor Howard H. Chang, Emory University
   </div>
-  
   <span class="tag">Environmental Epidemiology</span>
   <span class="tag">Survival Analysis</span>
   <span class="tag">R</span>
   <span class="tag">Exposure Assessment</span>
-  
   <p>
-    Air pollution exposure during pregnancy is a significant concern for maternal and fetal health. 
-    This project investigates the joint and individual effects of 12 ambient air pollutants on 
+    Air pollution exposure during pregnancy is a significant concern for maternal and fetal health.
+    This project investigates the joint and individual effects of 12 ambient air pollutants on
     gestational complications using a large Georgia birth cohort (conceptions 2007–2013).
   </p>
-  
   <p>
-    We employ logistic regression and discrete-time survival models to estimate trimester-specific 
-    risk, accounting for high-dimensional pollutant exposures alongside demographic and socioeconomic 
-    confounders. Spatiotemporal pollution estimates are linked to birth records to build a 
-    comprehensive, analysis-ready cohort. Results highlight critical exposure windows and key 
+    We employ logistic regression and discrete-time survival models to estimate trimester-specific
+    risk, accounting for high-dimensional pollutant exposures alongside demographic and socioeconomic
+    confounders. Spatiotemporal pollution estimates are linked to birth records to build a
+    comprehensive, analysis-ready cohort. Results highlight critical exposure windows and key
     pollutant-outcome pairs, providing actionable guidance for environmental health policy.
   </p>
-  
   <p>
-    <strong>Key methods:</strong> Weighted Quantile Sum (WQS) regression, Bayesian Kernel Machine 
+    <strong>Key methods:</strong> Weighted Quantile Sum (WQS) regression, Bayesian Kernel Machine
     Regression (BKMR), discrete-time hazard models, spatiotemporal data integration.
   </p>
-  
   <a class="btn-project" href="https://github.com/feiran924" target="_blank">
     <i class="fa fa-github"></i> View on GitHub
   </a>
 </div>
+```
 
 ---
 
+```{=html}
 <div class="footer-section">
   &copy; 2025 Feiran Zhang &nbsp;&middot;&nbsp; Built with R Markdown &amp; GitHub Pages
 </div>
+```
