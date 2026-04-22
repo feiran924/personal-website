@@ -7,51 +7,39 @@ output:
 ---
 
 <div class="hero-section">
-  <div class="hero-text">
-    <h1>Feiran Zhang</h1>
-    <div class="hero-subtitle">MPH Candidate in Biostatistics &middot; Emory University</div>
-    <div class="hero-location">
-      <i class="fa fa-map-marker"></i> Atlanta, GA &nbsp;&nbsp;
-      <i class="fa fa-envelope"></i> feiranz116@gmail.com
-    </div>
-    <p style="max-width:560px; color:#4a5568; margin-top:10px;">
-      I am a graduate student in Biostatistics at Emory University's Rollins School of Public Health, 
-      with a strong background in statistical modeling, environmental epidemiology, and public health data science. 
-      My work focuses on applying rigorous quantitative methods to address real-world health challenges.
-    </p>
-  </div>
+<div class="hero-text">
+<h1>Feiran Zhang</h1>
+<div class="hero-subtitle">MPH Candidate in Biostatistics &middot; Emory University</div>
+<div class="hero-location"><i class="fa fa-map-marker"></i> Atlanta, GA &nbsp;&nbsp; <i class="fa fa-envelope"></i> feiranz116@gmail.com</div>
+<p style="max-width:560px; color:#4a5568; margin-top:10px;">I am a graduate student in Biostatistics at Emory University's Rollins School of Public Health, with a strong background in statistical modeling, environmental epidemiology, and public health data science. My work focuses on applying rigorous quantitative methods to address real-world health challenges.</p>
+</div>
 </div>
 
 ## About Me
 
 <hr class="section-divider">
 
-I am passionate about using data to understand and address public health challenges. My research at Emory 
-spans **Bayesian spatial modeling**, **environmental epidemiology**, and **multi-pollutant exposure analysis**. 
-I have hands-on experience in R programming, statistical modeling, and translating complex analytical 
-results into actionable public health insights.
+I am passionate about using data to understand and address public health challenges. My research at Emory spans **Bayesian spatial modeling**, **environmental epidemiology**, and **multi-pollutant exposure analysis**. I have hands-on experience in R programming, statistical modeling, and translating complex analytical results into actionable public health insights.
 
-Before joining Emory, I completed a Bachelor of Economics in Economic Statistics at Henan University 
-of Economics and Law (in collaboration with Old Dominion University), where I developed a strong 
-quantitative foundation and led multiple research and field projects.
+Before joining Emory, I completed a Bachelor of Economics in Economic Statistics at Henan University of Economics and Law (in collaboration with Old Dominion University), where I developed a strong quantitative foundation and led multiple research and field projects.
 
 <div class="info-grid">
-  <div class="info-card">
-    <h4>&#127891; Education</h4>
-    <p><strong>MPH, Biostatistics</strong><br>Emory University (2026)<br>GPA: 3.91/4.0</p>
-  </div>
-  <div class="info-card">
-    <h4>&#128202; Research Focus</h4>
-    <p>Bayesian Spatial Modeling &middot; Environmental Epidemiology &middot; Spatiotemporal Analysis</p>
-  </div>
-  <div class="info-card">
-    <h4>&#128187; Technical Skills</h4>
-    <p>R &middot; Python &middot; SAS &middot; SQL &middot; SPSS &middot; Power BI</p>
-  </div>
-  <div class="info-card">
-    <h4>&#128203; Teaching</h4>
-    <p>Teaching Assistant, BIOS 544<br>Intro to R &mdash; Emory University</p>
-  </div>
+<div class="info-card">
+<h4>&#127891; Education</h4>
+<p><strong>MPH, Biostatistics</strong><br>Emory University (2026)<br>GPA: 3.91/4.0</p>
+</div>
+<div class="info-card">
+<h4>&#128202; Research Focus</h4>
+<p>Bayesian Spatial Modeling &middot; Environmental Epidemiology &middot; Spatiotemporal Analysis</p>
+</div>
+<div class="info-card">
+<h4>&#128187; Technical Skills</h4>
+<p>R &middot; Python &middot; SAS &middot; SQL &middot; SPSS &middot; Power BI</p>
+</div>
+<div class="info-card">
+<h4>&#128203; Teaching</h4>
+<p>Teaching Assistant, BIOS 544<br>Intro to R &mdash; Emory University</p>
+</div>
 </div>
 
 ## Experience Highlights
@@ -64,9 +52,8 @@ Applied regression and descriptive analyses in R to characterize patient epidemi
 **Data Analysis Intern** &mdash; Fuwai Central China Cardiovascular Hospital *(Summer 2023)*  
 Cleaned and validated pediatric blood-pressure datasets, created visualizations to evaluate a school–community screening model for childhood hypertension.
 
-**Published Work:** Zhang, F. (2023). *Analysis of the Impact of Smoking on Population Health.* 
-Presented at the 2023 Annual Conference of China Population Association.
+**Published Work:** Zhang, F. (2023). *Analysis of the Impact of Smoking on Population Health.* Presented at the 2023 Annual Conference of China Population Association.
 
 <div class="footer-section">
-  &copy; 2025 Feiran Zhang &nbsp;&middot;&nbsp; Built with R Markdown &amp; GitHub Pages
+&copy; 2025 Feiran Zhang &nbsp;&middot;&nbsp; Built with R Markdown &amp; GitHub Pages
 </div>
