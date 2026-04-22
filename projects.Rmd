@@ -40,7 +40,7 @@ Each project applies advanced statistical methods to real-world public health qu
     <strong>Key methods:</strong> Besag-York-Mollié (BYM) model, Intrinsic Conditional Autoregressive
     (ICAR) priors, Markov Chain Monte Carlo (MCMC) inference, choropleth mapping.
   </p>
-  <a class="btn-project" href="https://github.com/feiran924" target="_blank">
+  <a class="btn-project" href="https://github.com/feiran924/opioid-dashboard" target="_blank">
     <i class="fa fa-github"></i> View on GitHub
   </a>
 </div>
@@ -75,7 +75,7 @@ Each project applies advanced statistical methods to real-world public health qu
     <strong>Key methods:</strong> Weighted Quantile Sum (WQS) regression, Bayesian Kernel Machine
     Regression (BKMR), discrete-time hazard models, spatiotemporal data integration.
   </p>
-  <a class="btn-project" href="https://github.com/feiran924" target="_blank">
+  <a class="btn-project" href="https://github.com/feiran924/air-pollution-gestational" target="_blank">
     <i class="fa fa-github"></i> View on GitHub
   </a>
 </div>
